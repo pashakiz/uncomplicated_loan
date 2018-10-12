@@ -1,0 +1,20 @@
+.font {
+    font-family: "FuturaNew";
+}
+.font-reg {
+    font-weight: 400;
+}
+.font-med {
+    font-weight: 500;
+}
+.font-it {
+    font-weight: 400;
+    font-style: italic;
+}
+.font-bol {
+    font-weight: 700;
+}
+body {
+    font-family: "FuturaNew";
+    font-weight: 400;
+}
