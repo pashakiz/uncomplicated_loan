@@ -130,6 +130,11 @@ body {
     color: #fff;
     font-weight: 500;
 }
+.t4 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+}
 p {
     color: #404040;
 }
@@ -137,8 +142,6 @@ p {
     color: #404040;
     margin: 0 0 0 0;
 }
-ul {}
-ul > li {}
 .bg-custom1 {
     background-color: #d8f500!important;
     border-radius: .25rem;
@@ -239,11 +242,105 @@ ul > li {}
     border-radius: 20px;
     padding: 6px 30px;
 }
+.ul-btn-3:hover {
+    border-color: #ededed;
+    background-color: #ededed;
+}
+.ul-btn-3:active {
+    border-color: #e7e7e7;
+    background-color: #e7e7e7;
+}
 .form-group_13 {
     margin-bottom: 13px;
 }
 .form-group_27 {
     margin-bottom: 27px;
+}
+.form-control {
+    border-radius: 2rem;
+    padding: .375rem 1.5rem;
+    min-height: 54px;
+    border: 2px solid transparent;
+}
+.form-control:focus {
+    border-color: #73bbf8;
+    box-shadow: none;
+}
+.form-control.success {
+    border-color: #e8ff3a;
+}
+.form-control.error {
+    border-color: #ff6262;
+    color: #ff6262;
+}
+.form-control_select {
+    padding: .375rem .9rem;
+    background: #fff url('../img/arrow-down.svg') no-repeat right .9rem center;
+    background-size: 12px 12px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.input-date {
+    height: 54px;
+    position: relative;
+}
+.input-date:before {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #eaeaea;
+    color: #404040;
+    border-radius: 25px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    z-index: 10;
+}
+.input-date__icon {
+    width: 22px;
+    height: 22px;
+    font-size: 22px;
+    position: absolute;
+    top: 50%;
+    margin-top: -11px;
+    left: 16px;
+    z-index: 20;
+}
+.input-date__input {
+    padding-left: 69px;
+}
+.custom-control-label {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.custom-control-label::before {
+    background-color: #0a589a;
+}
+.custom-control-label::after {
+    background-size: 60% 60%;
+}
+.custom-checkbox .custom-control-input:focus~.custom-control-label::before {
+    box-shadow: none;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #0a589a;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after {
+    background-image: url('../img/ok.svg');
+}
+.popover.error {
+    background-color: #ff6262;
+}
+.popover.error .popover-body {
+    color: #fff;
+}
+.popover.error.bs-popover-auto[x-placement^=bottom] .arrow::after,
+.popover.error.bs-popover-bottom .arrow::after {
+    border-bottom-color: #ff6262;
 }
 .page {
     margin-top: 30px;
