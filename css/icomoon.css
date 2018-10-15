@@ -24,7 +24,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-arrow:before {
+.icon-arrow-left:before {
+  content: "\e907";
+}
+.icon-arrow-right:before {
   content: "\e900";
 }
 .icon-bank:before {
