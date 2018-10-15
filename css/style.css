@@ -142,6 +142,9 @@ p {
     color: #404040;
     margin: 0 0 0 0;
 }
+a {
+    color: #004a88;
+}
 .bg-custom1 {
     background-color: #d8f500!important;
     border-radius: .25rem;
