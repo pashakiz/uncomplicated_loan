@@ -42,9 +42,15 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    .headerline {
+        padding: 37px 0 36px;
+    }
     .headerline__nav {
         display: flex !important;
         padding-top: 0;
+    }
+    .headerline__link {
+        margin-bottom: 0;
     }
     .carditem__top {
         padding: 47px 65px 37px;

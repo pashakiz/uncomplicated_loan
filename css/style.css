@@ -62,7 +62,7 @@ body {
     margin-top: 0;
 }
 .headerline {
-    padding: 37px 0 36px;
+    padding: 20px 0;
 }
 .headerline__logo {
     width: 100%;
@@ -81,6 +81,7 @@ body {
 }
 .headerline__link {
     display: block;
+    margin-bottom: 10px;
 }
 .headerline__link a {
     color: #2c2c2c;
