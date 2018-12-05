@@ -515,6 +515,8 @@ a {
 }
 .article-like {
     width: 100%;
+    display: block;
+    margin-bottom: 20px;
 }
 .article-like:hover {
     color: inherit;
